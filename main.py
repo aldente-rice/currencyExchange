@@ -32,13 +32,15 @@ for currency_symbol in currency_symbols:
     if a:
         print(a.text[len(curr_currency) + 1:])
 '''
+
+'''
 currency_symbols = soup.find_all('tr', class_='row-hover')
 for currency_symbol in currency_symbols:
-    currency_rate = currency_symbol.find('td', class_='table__td text-right')
-    currency_rate1 = currency_rate.find('td', class_='table__td text-right')
-
-
-    print(currency_rate1)
+    currency_rate = currency_symbol.find_all('td', class_='table__td text-right')
+    for index, rate in enumerate(currency_rate):
+        if index % 4 == 0 and index != 0:
+            print(rate.text.strip())
+'''
 
 
 
