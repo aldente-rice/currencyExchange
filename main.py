@@ -8,23 +8,50 @@ soup = BeautifulSoup(html_text, 'lxml')
 
 
 # fills in currency_list.txt for all the available currencies to exchange to/from
-def fill_currency_list():
-    currency_symbol = soup.find_all('td', class_='table__td bold')
-    currency_name = soup.find_all()
-    currency_rate = soup.find_all()
+def fill_currency_list(currency, time):
+    currency_symbols = soup.find_all('tr', class_='row-hover')
+
+    # finds each currency name
+    for currency_symbol in currency_symbols:
+        currency_rate = currency_symbol.find_all('td', class_='table__td text-right')
+        for index, rate in enumerate(currency_rate):
+            currency_name = rate.find('a')
+            if currency_name:
+                print(currency_name.text.strip())
+
+    # finds each currency symbol
+    for currency_symbol in currency_symbols:
+        a = currency_symbol.find('a', class_='font-color-black')
+        curr_currency = 'USD'  # user's input currency to convert from
+        if a:
+            print(a.text[len(curr_currency) + 1:])
+
+    # finds each currency exchange rate
+    currency_symbols = soup.find_all('tr', class_='row-hover')
+    for currency_symbol in currency_symbols:
+        currency_rate = currency_symbol.find_all('td', class_='table__td text-right')
+        for index, rate in enumerate(currency_rate):
+            if index % 4 == 0 and index != 0:
+                print(rate.text.strip())
 
     for currency in currency_symbol:
         with open('currency_list.txt', 'w') as f:
             f.write(f'{currency_symbol} | {currency_name} | {currency_rate}\n')
 
-''' finds each currency name
-currency_symbols = soup.find_all('td', class_='table__td text-right')
+
+'''  finds each currency name
+currency_symbols = soup.find_all('tr', class_='row-hover')
 for currency_symbol in currency_symbols:
-    currency_name = currency_symbol.find('a')
-    if currency_name:
-        print(currency_name.text)
+    currency_rate = currency_symbol.find_all('td', class_='table__td text-right')
+    for index, rate in enumerate(currency_rate):
+        currency_name = rate.find('a')
+        if currency_name:
+            print(currency_name.text.strip())
 '''
-'''
+
+
+
+''' finds each currency symbol
 currency_symbols = soup.find_all('tr', class_='row-hover')
 for currency_symbol in currency_symbols:
     a = currency_symbol.find('a', class_='font-color-black')
@@ -33,19 +60,23 @@ for currency_symbol in currency_symbols:
         print(a.text[len(curr_currency) + 1:])
 '''
 
-'''
+
+''' finds each currency amount relative to user's currency
 currency_symbols = soup.find_all('tr', class_='row-hover')
 for currency_symbol in currency_symbols:
     currency_rate = currency_symbol.find_all('td', class_='table__td text-right')
     for index, rate in enumerate(currency_rate):
         if index % 4 == 0 and index != 0:
             print(rate.text.strip())
+
 '''
 
-
-
-
-
+'''
+if __name__ == '__main__':
+    info = input("Enter currency and update interval (in minutes): ")
+    info_split = info.split()
+    fill_currency_list(info_split[0], info_split[1])
+'''
 
 '''
 currency_table = soup.find(id='currency_container_table')
