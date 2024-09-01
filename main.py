@@ -8,10 +8,25 @@ soup = BeautifulSoup(html_text, 'lxml')
 
 
 # fills in currency_list.txt for all the available currencies to exchange to/from
-def fill_currency_list(currency, time):
-    currency_symbols = soup.find_all('tr', class_='row-hover')
+def fill_currency_list(currency):
+    f = open('currency_list.txt', 'w')
+    currency_symbols = soup.find_all('tr', class_='row-hover')  # all containers that contain currency info.
 
-    # finds each currency name
+    for currency_symbol in currency_symbols:
+        symbol = currency_symbol.find('a', class_='font-color-black')
+        f.write(symbol.text[len('USD') + 1:] + '|')
+
+        name = currency_symbol.find('td', class_='table__td text-right')
+        name1 = name.find('a', {'href': '/currencies/'})
+        f.write(name1)
+
+    f.close()
+
+
+fill_currency_list('usd')
+
+''' the old way where find each column at a time, rather than stay in row and collect info.
+
     for currency_symbol in currency_symbols:
         currency_rate = currency_symbol.find_all('td', class_='table__td text-right')
         for index, rate in enumerate(currency_rate):
@@ -19,24 +34,21 @@ def fill_currency_list(currency, time):
             if currency_name:
                 print(currency_name.text.strip())
 
-    # finds each currency symbol
     for currency_symbol in currency_symbols:
         a = currency_symbol.find('a', class_='font-color-black')
-        curr_currency = 'USD'  # user's input currency to convert from
+        curr_currency = currency  # user's input currency to convert from
         if a:
             print(a.text[len(curr_currency) + 1:])
 
-    # finds each currency exchange rate
-    currency_symbols = soup.find_all('tr', class_='row-hover')
     for currency_symbol in currency_symbols:
         currency_rate = currency_symbol.find_all('td', class_='table__td text-right')
         for index, rate in enumerate(currency_rate):
             if index % 4 == 0 and index != 0:
                 print(rate.text.strip())
 
-    for currency in currency_symbol:
-        with open('currency_list.txt', 'w') as f:
-            f.write(f'{currency_symbol} | {currency_name} | {currency_rate}\n')
+
+    f.write(f'{currency_symbol} | {currency_name} | {currency_rate}\n')'''
+
 
 
 '''  finds each currency name
