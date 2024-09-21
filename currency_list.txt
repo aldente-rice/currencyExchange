@@ -1,128 +1,131 @@
+Relative to USD
+Currency Symbol | Currency's Origin | Amount
+
 AAVE | Aave | 0.0066
 ACT | Achain | 1,043.5906
-ADA | Cardano | 2.8410
-ADX | AdEx | 6.4974
-AE | Aeternity | 39.3291
+ADA | Cardano | 2.8414
+ADX | AdEx | 6.5038
+AE | Aeternity | 39.4473
 AED | UAE Dirham | 3.6730
 AFN | Afghani | 70.4803
-AGRS | Agoras Tokens | 0.8391
-AION | Aion | 584.5693
-ALGO | Algorand | 7.5325
+AGRS | Agoras Tokens | 0.8380
+AION | Aion | 584.6837
+ALGO | Algorand | 7.5173
 ALL | Albanian Lek | 89.1940
-AMB | Ambrosus | 124.9810
+AMB | Ambrosus | 124.9801
 AMD | Armenischer Dram | 387.6335
-ANT | Aragon | 0.1525
-APPC | AppCoins | 3,895.3420
-ARDR | Ardor | 10.5962
-ARK | Ark | 2.1305
+ANT | Aragon | 0.1528
+APPC | AppCoins | 3,893.1953
+ARDR | Ardor | 10.4817
+ARK | Ark | 2.1374
 ARS | Argentine Peso | 961.8040
-ATM | ATMChain | 0.5493
+ATM | ATMChain | 0.5487
 AUD | Australian Dollar | 1.4689
-BAT | Basic Attention Token | 5.2859
+BAT | Basic Attention Token | 5.2770
 BCH | Bitcoin Cash | 0.0030
-BCN | Bytecoin | 47,438.7696
+BCN | Bytecoin | 47,448.2003
 BDT | Bangladeshi Taka | 119.5200
 BGN | Bulgarian Lev | 1.7523
 BHD | Bahraini Dinar | 0.3769
 BIF | Burundian Franc | 2,898.5000
-BITB | Bean Cash | 118,372.0323
-BLK | BlackCoin | 24.8118
-BLOCK | Blocknet | 79.4035
+BITB | Bean Cash | 118,323.5938
+BLK | BlackCoin | 24.8264
+BLOCK | Blocknet | 79.4420
 BMD | Bermuda Dollar | 1.0000
 BNB | Binance Coin | 0.0018
 BND | Brunei Dollar | 1.2907
-BNT | Bancor | 1.9563
+BNT | Bancor | 1.9566
 BOB | Bolivian Boliviano | 6.9204
-BRD | Bread | 211.4751
+BRD | Bread | 211.4564
 BRL | Brazilian Real | 5.5146
 BSD | Bahama-Dollar | 1.0007
 BSV | Bitcoin SV | 0.0207
 BTC | Bitcoin | 0.0000
 BTG | Bitcoin Gold | 0.0433
-BTM | Bytom | 196.0596
-BTS | BitShares | 545.7957
-BTX | Bitcore | 32.2164
+BTM | Bytom | 193.9239
+BTS | BitShares | 544.7897
+BTX | Bitcore | 32.2305
 BYN | Belarusian Ruble | 3.6547
 BYN | Belarusian Ruble | 3.6547
 BZD | Belize Dollar | 2.0250
 CAD | Canadian Dollar | 1.3570
 CHF | Swiss Franc | 0.8505
-CHZ | Chiliz | 17.5840
-CLOAK | CloakCoin | 10.7009
+CHZ | Chiliz | 17.5888
+CLOAK | CloakCoin | 10.7067
 CLP | Chilean Peso | 930.6500
-CMT | CyberMiles | 158.7958
+CMT | CyberMiles | 158.9158
 CND | Cindicator | 2,421.7815
 CNH | Chinesischer Yuan Offshore Hongkong | 7.0415
 CNY | Chinese Renminbi | 7.0533
-COB | Cobinhood | 1,588.0197
+COB | Cobinhood | 1,588.8871
 COP | Colombian Peso | 4,154.1150
 CRC | Costa Rican Colon | 518.7550
-CRV | Curve DAO Token | 3.3787
-CRW | Crown | 529.3567
+CRV | Curve DAO Token | 3.3797
+CRW | Crown | 529.6135
 CUP | Kubanischer Peso | 24.0164
-CVC | Civic | 7.8949
+CVC | Civic | 7.8715
 CVE | Kap-Verde-Escudo | 98.9350
 CZK | Czech Koruna | 22.4505
 DASH | Dash | 0.0400
-DATA | Streamr DATAcoin | 24.9338
-DBC | DeepBrain Chain | 437.1000
-DCN | Dentacoin | 1,123,279.3273
-DCR | Decred | 0.0806
-DENT | Dent | 1,142.1728
-DGB | DigiByte | 145.5438
-DIME | Dimecoin | 39,344.7385
-DIVI | Divi | 1,118.6827
+DATA | Streamr DATAcoin | 24.9911
+DBC | DeepBrain Chain | 437.8496
+DCN | Dentacoin | 1,123,380.9988
+DCR | Decred | 0.0805
+DENT | Dent | 1,143.4198
+DGB | DigiByte | 145.7448
+DIME | Dimecoin | 39,340.3118
+DIVI | Divi | 1,164.5436
 DJF | Dschibuti-Franc | 178.1850
 DKK | Danish Krone | 6.6820
-DLT | Agrello | 793.9788
-DNA | EncrypGen | 449.5772
-DNT | district0x | 26.7340
-DOGE | Dogecoin | 9.5549
+DLT | Agrello | 794.5792
+DNA | EncrypGen | 449.4967
+DNT | district0x | 26.7757
+DOGE | Dogecoin | 9.5412
 DOP | Dominican Peso | 60.0750
 DOT | Polkadot | 0.2312
-DPY | Delphy | 612.7252
-DRGN | Dragonchain | 51.2010
-DRT | DomRaider | 1,587.9576
+DPY | Delphy | 612.6785
+DRGN | Dragonchain | 51.1914
+DRT | DomRaider | 1,589.1585
 DZD | Algerian Dinar | 132.2173
 EGP | Egyptian Pound | 48.4526
-ELF | aelf | 2.4811
-ENG | Enigma | 108.6871
-ENJ | Enjin Coin | 6.6581
-EOS | EOS | 1.9386
+ELF | aelf | 2.4743
+ENG | Enigma | 108.6749
+ENJ | Enjin Coin | 6.6618
+EOS | EOS | 1.9381
 ETB | Ethiopian Birr | 116.5535
 ETC | Ethereum Classic | 0.0528
 ETH | Ethereum | 0.0004
-ETN | Electroneum | 521.0210
-ETP | Metaverse ETP | 284.1735
+ETN | Electroneum | 517.3744
+ETP | Metaverse ETP | 284.0367
 EUR | Euro | 0.8948
-EVX | Everex | 234.2425
-FCT | Factom | 26.5479
-FTC | Feathercoin | 93.4093
-FUEL | Etherparty | 6,812.8428
-FUN | FunFair | 284.0371
+EVX | Everex | 234.1896
+FCT | Factom | 26.3829
+FTC | Feathercoin | 93.4639
+FUEL | Etherparty | 6,812.0967
+FUN | FunFair | 284.2927
 GAME | GameCredits | 1,675.8540
-GAS | Gas | 0.2587
+GAS | Gas | 0.2597
 GBP | British Pound | 0.7506
 GBYTE | Byteball Bytes | 0.1349
-GFT | Gifto | 54.5384
+GFT | Gifto | 54.3651
 GIP | Gibraltar-Pfund | 0.7506
 GMD | Gambian Dalasi | 69.4950
 GNF | Guinean Franc | 8,647.9500
 GNO | Gnosis | 0.0061
-GRS | Groestlcoin | 2.9982
+GRS | Groestlcoin | 2.9920
 GTQ | Guatemalan Quetzal | 7.7386
 GYD | Guyana-Dollar | 209.3515
 HKD | Hong Kong Dollar | 7.7919
-HMQ | Humaniq | 350.6997
+HMQ | Humaniq | 350.7865
 HNL | Honduran Lempira | 24.8544
 HRK | Croatian Kuna | 7.0439
 HTG | Haitian Gourde | 131.9295
 HUF | Hungarian Forint | 352.1750
-HVN | Hiveterminal | 6,880.3235
-ICX | ICON | 7.0481
+HVN | Hiveterminal | 6,877.9711
+ICX | ICON | 7.0416
 IDR | Indonesian Rupiah | 15,156.0000
 ILS | Neuer Schekel | 3.7819
-INK | Ink | 1,579.6912
+INK | Ink | 1,579.5839
 INR | Indian Rupee | 83.4833
 ION | ION | 0.0042
 IRR | Iranian Rial | 42,092.5000
@@ -130,182 +133,182 @@ ISK | Icelandic Króna | 136.2600
 JMD | Jamaika-Dollar | 157.1950
 JOD | Jordanian Dinar | 0.7080
 JPY | Japanese Yen | 143.8195
-KCS | KuCoin Shares | 0.1338
+KCS | KuCoin Shares | 0.1345
 KES | Kenyan Shilling | 129.0195
 KHR | Riel | 4,065.6500
-KIN | Kin | 62,042.8646
-KMD | Komodo | 3.8825
+KIN | Kin | 62,179.7586
+KMD | Komodo | 3.8829
 KMF | Comorian Franc | 445.2995
 KNC | Kyber Network | 1.8669
 KRW | South Korean Won | 1,332.4950
 KSM | Kusama | 0.0486
 KWD | Kuwaiti Dinar | 0.3051
 KZT | Kasachischer Tenge | 479.9600
-LA | LAToken | 43.8144
+LA | LAToken | 43.6396
 LAK | Kip | 22,101.4500
-LBC | LBRY Credits | 540.3904
+LBC | LBRY Credits | 540.4373
 LBP | Lebanese Lira | 89,551.5000
-LINK | Chainlink | 0.0883
+LINK | Chainlink | 0.0884
 LKR | Sri Lankan Rupee | 305.1900
-LRC | Loopring | 8.0576
+LRC | Loopring | 8.0625
 LRD | Liberianischer Dollar | 199.8380
-LSK | Lisk | 1.1205
+LSK | Lisk | 1.1123
 LSL | Lesotho Loti | 17.5274
 LTC | Litecoin | 0.0154
-LUN | Lunyr | 88.2199
-LUNA | Terra | 2.5715
+LUN | Lunyr | 88.2866
+LUNA | Terra | 2.5707
 LYD | Libyscher Dinar | 4.7601
 MAD | Moroccan Dirham | 9.7440
-MAID | MaidSafeCoin | 3.5688
-MANA | Decentraland | 3.3704
-MATIC | Polygon | 2.5121
-MDA | Moeda Loyalty Points | 103.0816
-MED | MediBloc | 112.1846
+MAID | MaidSafeCoin | 3.5691
+MANA | Decentraland | 3.3711
+MATIC | Polygon | 2.5119
+MDA | Moeda Loyalty Points | 103.0736
+MED | MediBloc | 112.4390
 MGA | Ariary | 4,526.9000
-MIOTA | Iota | 7.2313
+MIOTA | Iota | 7.2328
 MKD | Mazedonischer Denar | 55.2020
 MLN | Melon | 0.0610
 MMK | Kyat | 2,098.8850
 MONA | MonaCoin | 0.0128
 MOP | Macau-Pataca | 8.0327
-MTH | Monetha | 663.1359
-MTL | Metal | 0.9650
+MTH | Monetha | 663.9873
+MTL | Metal | 0.9574
 MUR | Mauritian Rupee | 45.8795
 MVR | Rufiyaa | 15.3600
 MWK | Malawian Kwacha | 1,735.5050
 MXN | Mexican Peso | 19.4105
 MYR | Malaysian Ringgit | 4.2030
 NAD | Namibian Dollar | 17.5273
-NAS | Nebulas | 170.6204
-NAV | NAV Coin | 25.0245
-NEBL | Neblio | 382.7405
-NEO | Neo | 0.0974
-NEU | Neumark | 158.7958
-NGC | NAGA | 55.0211
+NAS | Nebulas | 170.6136
+NAV | NAV Coin | 25.0204
+NEBL | Neblio | 382.4449
+NEO | Neo | 0.0972
+NEU | Neumark | 158.9158
+NGC | NAGA | 55.0008
 NGN | Nigerian Naira | 1,639.4500
 NIO | Nicaraguan Córdoba | 36.8230
 NLC | NoLimitCoin | 170.1104
-NMC | Namecoin | 1.7946
-NMR | Numeraire | 0.0660
+NMC | Namecoin | 1.7948
+NMR | Numeraire | 0.0661
 NOK | Norwegian Krone | 10.4843
 NPR | Nepalese Rupee | 134.0005
-NULS | Nuls | 2.5830
-NXS | Nexus | 30.9066
+NULS | Nuls | 2.5633
+NXS | Nexus | 30.9110
 NXT | Nxt | 1,082.9143
-NYC | NewYorkCoin | 1,069,255.9831
+NYC | NewYorkCoin | 1,069,791.8470
 NZD | New Zealand Dollar | 1.6041
 OK | OKCash | 217.3066
-OMG | OmiseGO | 3.1767
+OMG | OmiseGO | 3.1631
 OMNI | Omni | 1.0000
 OMR | Omani Rial | 0.3849
-ONION | DeepOnion | 19.8509
+ONION | DeepOnion | 19.8605
 PAB | Balboa | 1.0007
-PAC | PACcoin | 29,927.6968
-PART | Particl | 5.7308
-PASC | Pascal Coin | 740.8228
-PAY | TenX | 41.5901
-PAYX | Paypex | 39,344.7385
+PAC | PACcoin | 29,958.6725
+PART | Particl | 5.7250
+PASC | Pascal Coin | 740.9985
+PAY | TenX | 41.5894
+PAYX | Paypex | 39,340.3118
 PEN | Sol | 3.7568
 PHP | Philippine Peso | 55.6515
-PHR | Phore | 1,764.2914
-PIVX | PIVX | 4.4427
+PHR | Phore | 1,765.1983
+PIVX | PIVX | 4.4413
 PKR | Pakistani Rupee | 278.2600
 PLN | Polish Zloty | 3.8245
-PLR | Pillar | 287.9473
+PLR | Pillar | 287.9094
 POE | Poet | 161,269.5831
-POT | PotCoin | 473.0560
-POWR | Power Ledger | 4.3941
-PPT | Populous | 15.6472
+POT | PotCoin | 473.1951
+POWR | Power Ledger | 4.3674
+PPT | Populous | 15.3531
 PRO | Propy | 0.9645
 PYG | Paraguayan Guarani | 7,792.4500
 QAR | Qatari Riyal | 3.6544
-QASH | QASH | 83.2107
-QRL | Quantum Resistant Ledger | 6.0515
-QTUM | Qtum | 0.4020
-RCN | Ripio Credit Network | 750.4352
-RDD | ReddCoin | 12,648.1575
-RDN | Raiden Network Token | 287.1424
-REP | Augur | 3.2793
-REQ | Request Network | 9.3706
-RLC | iExec RLC | 0.6178
+QASH | QASH | 83.2044
+QRL | Quantum Resistant Ledger | 6.0563
+QTUM | Qtum | 0.4014
+RCN | Ripio Credit Network | 750.3364
+RDD | ReddCoin | 12,644.5128
+RDN | Raiden Network Token | 287.0945
+REP | Augur | 3.2962
+REQ | Request Network | 9.3738
+RLC | iExec RLC | 0.6182
 RUB | Russian Ruble | 92.2407
-RVT | Rivetz | 1,587.1126
+RVT | Rivetz | 1,586.9036
 RWF | Rwandan Franc | 1,346.9300
-SALT | SALT | 58.1273
+SALT | SALT | 58.1211
 SAN | Santiment Network Token | 11.4419
 SAR | Saudi Riyal | 3.7526
 SBD | Salomonen-Dollar | 8.3717
-SC | Siacoin | 208.5157
+SC | Siacoin | 207.5276
 SCR | Seychellois Rupee | 13.0620
 SDG | Sudanesicher Pfund | 601.5000
 SEK | Swedish Krona | 10.1901
 SGD | Singapore Dollar | 1.2913
-SIB | SIBCoin | 9.9247
+SIB | SIBCoin | 9.9322
 SKY | Skycoin | 41.1367
-SLS | SaluS | 0.1985
-SMART | SmartCash | 6,137.4368
-SNC | SunContract | 15.0968
-SNT | Status | 41.3926
+SLS | SaluS | 0.1986
+SMART | SmartCash | 6,134.0993
+SNC | SunContract | 15.1048
+SNT | Status | 41.2879
 SOL | Solana | 0.0069
 SOS | Somalia-Schilling | 572.7000
 SRD | Suriname-Dollar | 29.7040
-SRN | SIRIN LABS Token | 9,105.2814
-STEEM | Steem | 5.1307
-STORJ | Storj | 2.4530
-STX | Stox | 188.3268
+SRN | SIRIN LABS Token | 9,104.0822
+STEEM | Steem | 5.1680
+STORJ | Storj | 2.4483
+STX | Stox | 188.2990
 SUB | Substratum | 4,174.3625
 SVC | Costa Rican Colon | 8.7560
-SYS | Syscoin | 9.3704
+SYS | Syscoin | 9.3545
 SZL | Lilangeni | 17.5300
 THB | Thai Baht | 32.9020
-THC | HempCoin | 2,268.6715
+THC | HempCoin | 2,269.8388
 TJS | Somoni | 10.6700
-TKN | TokenCard | 18.1063
+TKN | TokenCard | 18.1040
 TMT | Turkmenistan-Manat | 3.5000
 TOP | Pa'anga | 2.3440
-TRST | WeTrust | 2,879.8802
-TRX | Tron | 6.5829
+TRST | WeTrust | 2,879.5009
+TRX | Tron | 6.5895
 TRY | Turkish New Lira | 34.1241
 TTD | Trinidad and Tobago Dollar | 6.7973
 TWD | New Taiwan Dollar | 31.9805
 TZS | Tanzanian Shilling | 2,726.7000
 UAH | Ukrainian Hryvnia | 41.4988
 UGX | Ugandan Shilling | 3,717.6000
-UNI | Uniswap | 0.1469
-USDT | Tether | 0.9998
-UTK | UTRUST | 21.1158
+UNI | Uniswap | 0.1474
+USDT | Tether | 0.9999
+UTK | UTRUST | 21.0465
 UYU | Uruguayan Peso | 40.9830
 VEE | BLOCKv | 185.3870
 VERI | Veritaseum | 0.0504
-VIA | Viacoin | 2.6510
-VIB | Viberate | 13.8781
-VIBE | VIBE | 1,126.4921
+VIA | Viacoin | 2.6530
+VIB | Viberate | 13.8383
+VIBE | VIBE | 1,126.6168
 VND | Vietnamese Dong | 24,600.0000
-VTC | Vertcoin | 16.4658
-WAVES | Waves | 0.8816
+VTC | Vertcoin | 16.4124
+WAVES | Waves | 0.8834
 WGR | Wagerr | 477.4842
-WINGS | Wings | 485.8392
-WRC | Worldcore | 2,938.7119
-WTC | Walton | 121.4927
+WINGS | Wings | 485.7752
+WRC | Worldcore | 2,940.7363
+WTC | Walton | 121.4772
 XAF | Central African CFA Franc | 587.6172
 XAUT | Tether Gold | 0.0004
-XBY | XTRABYTES | 811.6713
+XBY | XTRABYTES | 811.7465
 XCP | Counterparty | 0.1729
 XDN | DigitalNote | 45,730.8167
-XEM | NEM | 53.0320
-XLM | Stellar | 10.4023
+XEM | NEM | 53.0857
+XLM | Stellar | 10.4047
 XMR | Monero | 0.0057
-XRP | Ripple | 1.7157
-XTZ | Tezos | 1.4393
-XVG | Verge | 249.1202
-XWC | WhiteCoin | 64.0846
-XZC | ZCoin | 0.8307
+XRP | Ripple | 1.7153
+XTZ | Tezos | 1.4364
+XVG | Verge | 248.7628
+XWC | WhiteCoin | 63.5174
+XZC | ZCoin | 0.8293
 YER | Jemen-Rial | 250.3450
 YFI | yearn.finance | 0.0002
 ZAR | South African Rand | 17.4305
-ZCL | ZClassic | 20.0891
-ZEC | Zcash | 0.0324
-ZEN | ZenCash | 0.1221
+ZCL | ZClassic | 20.0785
+ZEC | Zcash | 0.0325
+ZEN | ZenCash | 0.1220
 ZMW | Zambian Kwacha | 26.4163
-ZRX | 0x | 3.0745
-ZSC | Zeusshield | 9,957.0948
+ZRX | 0x | 3.0638
+ZSC | Zeusshield | 9,956.3249

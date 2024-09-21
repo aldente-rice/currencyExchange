@@ -11,14 +11,17 @@ soup = BeautifulSoup(html_text, 'lxml')
 # fills in currency_list.txt for all the available currencies to exchange to/from
 def fill_currency_list(currency):
     f = open('currency_list.txt', 'w')
+    f.write('Relative to ' + currency.upper() + '\n')
+    f.write('Currency Symbol | Currency\'s Origin | Amount' + '\n\n')
+
     currency_containers = soup.find_all('tr', class_='row-hover')  # all containers that contain currency info.
 
     for currency_container in currency_containers:
         symbol = currency_container.find('a', class_='font-color-black')
         f.write(symbol.text[len(currency) + 1:] + ' | ')
         search_container = currency_container.find_all('td', class_='table__td text-right')
-        f.write(search_container[1].text.strip() + ' | ')
-        f.write(search_container[4].text.strip() + '\n')
+        f.write(search_container[1].text.strip() + ' | ') # writes the currency's country of origin
+        f.write(search_container[4].text.strip() + '\n') # writes the currency's current amount
 
     f.close()
 
