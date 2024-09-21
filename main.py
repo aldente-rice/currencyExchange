@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import datetime
 
 
 # def exchangeCurrency(currency_from = "USD", currency_to = "", amount_from = 0, amount_to = 0):
@@ -10,20 +11,37 @@ soup = BeautifulSoup(html_text, 'lxml')
 # fills in currency_list.txt for all the available currencies to exchange to/from
 def fill_currency_list(currency):
     f = open('currency_list.txt', 'w')
-    currency_symbols = soup.find_all('tr', class_='row-hover')  # all containers that contain currency info.
+    currency_containers = soup.find_all('tr', class_='row-hover')  # all containers that contain currency info.
 
-    for currency_symbol in currency_symbols:
-        symbol = currency_symbol.find('a', class_='font-color-black')
-        f.write(symbol.text[len('USD') + 1:] + '|')
-
-        name = currency_symbol.find('td', class_='table__td text-right')
-        name1 = name.find('a', {'href': '/currencies/'})
-        f.write(name1)
+    for currency_container in currency_containers:
+        symbol = currency_container.find('a', class_='font-color-black')
+        f.write(symbol.text[len(currency) + 1:] + ' | ')
+        search_container = currency_container.find_all('td', class_='table__td text-right')
+        f.write(search_container[1].text.strip() + ' | ')
+        f.write(search_container[4].text.strip() + '\n')
 
     f.close()
 
 
 fill_currency_list('usd')
+print('Last Updated: ')
+
+'''
+if __name__ == '__main__':
+    info = input("Enter currency and update interval (in minutes): ")
+    info_split = info.split()
+    fill_currency_list(info_split[0], info_split[1])
+'''
+
+
+
+
+
+
+
+
+
+
 
 ''' the old way where find each column at a time, rather than stay in row and collect info.
 
@@ -83,12 +101,7 @@ for currency_symbol in currency_symbols:
 
 '''
 
-'''
-if __name__ == '__main__':
-    info = input("Enter currency and update interval (in minutes): ")
-    info_split = info.split()
-    fill_currency_list(info_split[0], info_split[1])
-'''
+
 
 '''
 currency_table = soup.find(id='currency_container_table')
